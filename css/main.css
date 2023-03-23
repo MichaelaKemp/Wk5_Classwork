@@ -1,0 +1,53 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    width: 90%;
+    height: 80px;
+    background-color: #2b2b2b;
+    color: white;
+    padding-left: 10%;
+    padding-top: 1px;
+}
+
+nav h2
+{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+header
+{
+    width: 90%;
+    height: 600px;
+    background-color: gray;
+    padding-left: 10%;
+    padding-top: 150px;
+    color: white;
+}
+
+header p
+{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: -35px;
+}
+
+header h1
+{
+    font-size: 55px;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+}
