@@ -23,12 +23,22 @@ nav h2
 
 header
 {
-    width: 90%;
+    width: 100%;
     height: 600px;
     background-color: gray;
+    color: white;
+    background-image: url("../assets/photo-1541807360746-039080941306.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay
+{
+    width: 90%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.6);
     padding-left: 10%;
     padding-top: 150px;
-    color: white;
 }
 
 header p
@@ -50,4 +60,28 @@ header h1
     font-size: 55px;
     margin-bottom: 0;
     font-family: 'Playfair Display', serif;
+}
+
+.round-image
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(../assets/photo-1541807360746-039080941306.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image-con
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image-con img
+{
+    width: 50%;
 }
